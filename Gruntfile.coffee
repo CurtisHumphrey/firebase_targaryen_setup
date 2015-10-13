@@ -4,7 +4,7 @@ module.exports = (grunt) ->
       git:
         cmd: 'START "" "C:\\Program Files\\TortoiseGit\\bin\\TortoiseGitProc.exe" /command:log /path:..'
       jasmine_rules:
-        cmd: 'jasmine'
+        cmd: 'node jasmine-runner.js'
 
     watch:
       firebase_rules:
