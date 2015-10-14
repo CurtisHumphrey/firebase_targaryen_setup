@@ -10,7 +10,7 @@
     "jasmine": "^2.3.2",
     "jasmine-spec-reporter": "^2.4.0",
     "load-grunt-tasks": "^3.3.0",
-    "targaryen": "^1.1.4"
+    "targaryen": "git://github.com/goldibex/targaryen.git"
   },
   "scripts": {
     "test": "grunt"

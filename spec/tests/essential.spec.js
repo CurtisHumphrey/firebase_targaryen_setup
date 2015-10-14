@@ -18,7 +18,7 @@ describe('Essential Security Rules', function() {
     it('the root should not be writable with null (delete) by any user type', function() {
       expect(targaryen.users.unauthenticated).cannotWrite('/', null);
       expect(targaryen.users.anonymous).cannotWrite('/', null);
-      expect(targaryen.users.simplelogin).cannotWrite('/', null);
+      expect(targaryen.users.password).cannotWrite('/', null);
     });
   });
 });
