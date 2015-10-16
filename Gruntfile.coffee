@@ -8,7 +8,7 @@ module.exports = (grunt) ->
 
     watch:
       firebase_rules:
-        files: ['rules.json','spec/**/*.js']
+        files: ['rules.json','spec/**/*.*']
         tasks: ['exec:jasmine_rules']
 
   require('load-grunt-tasks')(grunt)
